@@ -1,0 +1,123 @@
+@font-face {font-family:"LED";src:url("./fonts/LED.ttf") format("truetype");font-weight:normal;font-style:normal;}
+* {
+    font-family: 'LED';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.top-block, .center-block, .bottom-block {
+    background-color: black;
+    border: 1px solid rgb(0, 120, 176);
+    width: 100%;
+    margin: 20px 0;
+}
+.data {
+    color: rgb(0, 120, 176);
+    text-align: center;
+}
+.clock {
+    color: rgb(0, 120, 176);
+    text-align: center;
+    font-size: 60px;
+}
+.stopwatch {
+    color: rgb(0, 120, 176);
+}
+.stopwatch {
+    display: flex;
+    width: 250px;
+    margin: 10px auto;
+}
+.stopwatch__block {
+    border: 1px solid rgb(0, 120, 176);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.time {
+    font-size: 44px;
+    text-align: center;
+}
+.title {
+    font-family: 'Times New Roman';
+    font-size: 12px;
+    padding: 0 5px;
+    color: rgb(0, 120, 176);
+}
+.buttons {
+    width: 180px;
+    margin: 10px auto;
+}
+.button {
+    font-family: 'Times New Roman';
+    background-color: black;
+    border-color: rgb(0, 120, 176);
+    border-radius: 5px;
+    color: rgb(0, 120, 176);
+    /* text-shadow: 0.7px 0.7px rgb(0, 120, 176); */
+    padding: 3px;
+}
+.result-block {
+    border: 1px solid rgb(0, 120, 176);
+    width: 20%;
+    color: rgb(0, 120, 176);
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+h2 {
+    font-family: 'Times New Roman';
+}
+.taimer {
+    display: flex;
+}
+.block-1 {
+    width: 200px;
+    padding: 15px;
+    color: rgb(0, 120, 176);
+    text-align: center;
+}
+.time-timer {
+    font-size: 50px;
+}
+.addTimer {
+    width: 20px;
+    background-color: black;
+    border-color: rgb(0, 120, 176);
+    color: rgb(0, 120, 176);
+    border-radius: 5px;
+
+}
+.removeTimer {
+    width: 20px;
+    background-color: black;
+    border-color: rgb(0, 120, 176);
+    color: rgb(0, 120, 176);
+    border-radius: 5px;
+}
+.block-2 {
+    color: rgb(0, 120, 176);
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: 60%;
+}
+.minute-timer {
+    margin-left: 50px;
+}
+.second-timer {
+    margin-left: 10px;
+}
+.buttons-timer {
+    margin: 0 auto;
+}
+.button-start, .button-stop, .button-reset {
+    background-color: black;
+    color: rgb(0, 120, 176);
+    border-color: rgb(0, 120, 176);
+    border-radius: 5px;
+    padding: 3px;
+}
